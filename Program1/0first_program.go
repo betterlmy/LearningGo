@@ -28,7 +28,7 @@ func main() {
 
 }
 
-//sumAB 计算a+b的和
+// sumAB 计算a+b的和
 func sumAB(a int, b int) int {
 	return a + b
 }
@@ -41,4 +41,11 @@ func GetList(a int, b int) (int, int) {
 // concat 连接两个字符串
 func concat(str1 string, str2 string) string {
 	return str1 + str2
+}
+
+func constTest() int {
+	const (
+		width, height = 100, 50
+	)
+	return width * height
 }
